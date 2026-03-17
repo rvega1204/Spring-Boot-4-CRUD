@@ -1,0 +1,46 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+POST localhost:8080/api/v1/users
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "John@gmail.com",
+  "password": "12345678"
+}
+
+###
+GET localhost:8080/api/v1/users/3
+
+###
+GET localhost:8080/api/v1/users/email/jimena@gmail.com
+
+###
+GET localhost:8080/api/v1/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyaWNhcmRvQGdtYWlsLmNvbSIsInVzZXJJZCI6MSwiaWF0IjoxNzczNzgwMjk1LCJleHAiOjE3NzM4NjY2OTV9.ORCzJ3aRtAEUgOnhw_NtqGL-4CemH85Xx2eOWMS5D_Q
+
+###
+PUT localhost:8080/api/v1/users/2
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane@gmail.com"
+}
+
+###
+DELETE localhost:8080/api/v1/users/2
+
+###
+POST localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "john@gmail.com",
+  "password": "1005"
+}
