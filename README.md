@@ -180,9 +180,9 @@ Content-Type: application/json
 
 ```json
 {
-  "firstName": "Magaly",
-  "lastName": "Ramirez",
-  "email": "magaly@gmail.com",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "John@gmail.com",
   "password": "password123"
 }
 ```
@@ -200,7 +200,7 @@ Content-Type: application/json
 
 ```json
 {
-  "email": "magaly@gmail.com",
+  "email": "John@gmail.com",
   "password": "password123"
 }
 ```
@@ -364,9 +364,9 @@ POST http://localhost:8080/api/v1/users
 Content-Type: application/json
 
 {
-  "firstName": "Magaly",
-  "lastName": "Ramirez",
-  "email": "magaly@gmail.com",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "John@gmail.com",
   "password": "password123"
 }
 ```
@@ -378,7 +378,7 @@ POST http://localhost:8080/api/v1/auth/login
 Content-Type: application/json
 
 {
-  "email": "magaly@gmail.com",
+  "email": "John@gmail.com",
   "password": "password123"
 }
 ```
@@ -406,9 +406,9 @@ Content-Type: application/json
 
 {
   "id": 1,
-  "firstName": "Magaly",
+  "firstName": "John",
   "lastName": "Lopez",
-  "email": "magaly@gmail.com"
+  "email": "John@gmail.com"
 }
 ```
 
@@ -473,4 +473,4 @@ A public registration endpoint solves the bootstrap problem of creating the firs
 ## License
 
 MIT License
-Copyright (c) 2026 Ricardo
+Copyright (c) 2026 Ricardo Vega
